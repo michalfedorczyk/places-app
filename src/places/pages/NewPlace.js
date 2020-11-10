@@ -1,7 +1,12 @@
 import React from "react";
 
 const NewPlace = () => {
-  return <h2>New Place is in place!</h2>;
+  return (
+    <form className="place-form">
+      <labe></labe>
+      <Input type="text" label="Title" />
+    </form>
+  );
 };
 
 export default NewPlace;
